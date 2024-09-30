@@ -28,7 +28,7 @@ Where to get API keys\
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone [https://link-to-project](https://github.com/visith1577/podcast-chatbot.git)
 ```
 
 Go to the project directory
