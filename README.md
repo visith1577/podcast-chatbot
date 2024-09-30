@@ -17,10 +17,10 @@ COHERE_API_KEY
 ```
 Where to get API keys\
 `QDRANT_CLOUD_API_KEY` from https://qdrant.tech \
-`OPENAI_API_KEY` from https://platform.openai.com/settings/organization/billing/overview \
+`OPENAI_API_KEY` from https://platform.openai.com \
 `GROQ_API_KEY` from https://console.groq.com \
 `ZEP_API_KEY` from https://www.getzep.com \
-`COHERE_API_KEY` from https://dashboard.cohere.com/api-keys \
+`COHERE_API_KEY` from https://dashboard.cohere.com \
 
 
 ## Run Locally
