@@ -51,7 +51,7 @@ install dependencies on to virtual environment
 ```
 
 run data pipeline  \
-go to notebooks folder and run data_injest.ipynb to populate database and setup user \
+go to notebooks folder and run `data_injest.ipynb` to populate database and setup user \
 ONLY IF .env not shared \
 
 run app 
