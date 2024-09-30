@@ -71,6 +71,9 @@ def chatbot_entry(query: str, history: List[Message], facts: str) -> ChatbotEntr
 
         New Queries:  
         - If the answer is not available in the history, output 'no answer' and enable RAG retrieval with use_rag=True.  
+                   
+        Conversational Nuances
+        - The user may express sarcasm, humor, or frustration. Respond with a light, conversational tone that acknowledges the user's feelings, incorporates humor when appropriate, and gently steers the conversation toward helpful information. 
 
         The output should contain:  
         - The generated response with speaker name, timestamp, and URL [timestamped YouTube link] (if possible). only provide speaker name, timestamp or URL if available in history else if you do not know, express it,  

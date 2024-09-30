@@ -37,7 +37,7 @@ def rag_agent(query: str, user_intent: str, output_emotion: str, history: str = 
     Returns:
         The generated response from the RAG model.
     """
-    documents = get_documents(query=query, limit=5)
+    documents = get_documents(query=query, limit=10)
 
     graded_documents_list = graded_documents(query=query, documents=documents)
 
